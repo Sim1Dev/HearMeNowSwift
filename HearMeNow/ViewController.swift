@@ -50,6 +50,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
             
             if error == nil {
                 soundPlayer?.delegate = self
+                soundPlayer?.enableRate = true
+                soundPlayer?.rate = 0.5
                 soundPlayer?.play()
             } else {
                 println("Error initializing player \(error)")
