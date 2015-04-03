@@ -4,7 +4,7 @@
 //
 //  Created by Simone Manfredini on 03/04/15.
 //  Copyright (c) 2015 SM. All rights reserved.
-//
+//  This is the VIew Controller
 
 import UIKit
 import AVFoundation
